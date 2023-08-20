@@ -1,3 +1,5 @@
+import ReadMoreButton from "./ReadMoreButton";
+
 type Props = {
   article: Article;
 }
@@ -30,6 +32,7 @@ const Article = ({ article }: Props) => {
         </div>
 
         {/* ReadMoreButton */}
+        <ReadMoreButton article={article} />
       </div>
     </article>
   )
